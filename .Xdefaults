@@ -1,0 +1,37 @@
+!! Transparency (0-1):
+! st.alpha: 0.92
+URxvt*font: xft:Inconsolata Nerd Font:size=12
+URxvt.scrollBar: false
+URxvt.scrollstyle: rxvt
+
+!! Set a default font and font size as below:
+st.font: Monospace-11;
+
+st.termname: st-256color
+! st.borderpx: 2
+
+!! Set the background, foreground and cursor colors as below:
+*.background: #282828
+*.foreground: white
+*.cursorColor: white
+
+/* !! brogrammer: */
+* *.foreground:  #d6dbe5 */
+* *.background:  #131313 */
+* *.color0:      #1f1f1f */
+* *.color8:      #d6dbe5 */
+* *.color1:      #f81118 */
+* *.color9:      #de352e */
+* *.color2:      #2dc55e */
+* *.color10:     #1dd361 */
+* *.color3:      #ecba0f */
+* *.color11:     #f3bd09 */
+* *.color4:      #2a84d2 */
+* *.color12:     #1081d6 */
+* *.color5:      #4e5ab7 */
+* *.color13:     #5350b9 */
+* *.color6:      #1081d6 */
+* *.color14:     #0f7ddb */
+* *.color7:      #d6dbe5 */
+* *.color15:     #ffffff */
+* *.colorBD:     #d6dbe5 */

@@ -1,0 +1,43 @@
+#!/bin/sh
+
+bspc monitor -d Code Web Terminal Music Messaging Misc VII VIII IX X
+
+bspc config border_width         2
+bspc config window_gap          12
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+# Set the border colors.
+bspc config normal_border_color "$color15"
+bspc config focused_border_color "$color1"
+bspc config presel_feedback_color "$color1"
+
+## Window rules
+# 1 > VSCodium
+bspc rule -a VSCodium desktop='^1' follow=on focus=on
+# 2 > Web
+bspc rule -a Firefox desktop='^2'
+# 5 > Messaging
+bspc rule -a Rambox desktop='^5'
+# 6 > Misc
+bspc rule -a Postman desktop='^6'
+
+# Floating
+bspc rule -a Tk state=floating
+
+## Autostart
+wal -R &
+
+## Pywal
+. "${HOME}/.cache/wal/colors.sh"
+
+## Lock the screen
+betterlockscreen -l blur
+
+## Polybar
+$HOME/.config/polybar/launch.sh
+
+sleep 0.5
+notify-send "Bspwm Loaded, Have fun ;)"
