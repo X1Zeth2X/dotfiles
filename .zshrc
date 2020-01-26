@@ -43,20 +43,12 @@ else
 fi
 }
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
 downloadMusic() {
 	youtube-dl -o "%(title)s.%(ext)s" -x -i "$1"
 }
 
 loadVisColors() {
 	tac ~/.cache/wal/colors > ~/.config/vis/colors/wal
-}
-
-tor() {
-	cd ~/Documents/Tor\ Browser/Browser/
-	./firefox & disown
-	exit
 }
 
 # Show that cool pfetch
