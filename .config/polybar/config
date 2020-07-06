@@ -13,6 +13,7 @@ height = 38
 fixed-center = true
 bottom = false
 
+wm-restack = bspwm
 tray-position=left
 override-redirect = false
 
@@ -93,7 +94,7 @@ exec = echo "$(curl --limit-rate 1k -s https://ifcfg.me)" || echo ""
 type = custom/script
 interval = 256
 format = "<label> "
-format-prefix = " "
+format-prefix = " "
 format-prefix-foreground = ${colors.primary}
 exec = echo "$(uname -n)"
 
@@ -188,10 +189,10 @@ label = %time% %date%
 [module/volume]
 type = custom/script
 interval = 2
-format = "<label> "
+format = "<label>%"
 format-prefix = " "
 format-prefix-foreground = ${colors.primary}
-exec = echo "$(amixer -M get Master | grep 'Mono:' | awk -F'[][]' '{ print $2 }')"
+exec = $HOME/.config/polybar/scripts/volume.sh
 
 [module/battery]
 type = internal/battery
