@@ -1,0 +1,1785 @@
+: 1594078986:0;sudo pacman -S zsh-autosuggestions
+: 1594079066:0;echo $ZSH_CUSTOM
+: 1594079075:0;git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"\
+
+: 1594079103:0;ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"\
+
+: 1594079104:0;clear
+: 1594079135:0;git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions\
+
+: 1594079144:0;ls
+: 1594079145:0;clear
+: 1594079145:0;ls
+: 1594079146:0;ranger
+: 1594079161:0;nvim .local/bin/pfetch
+: 1594079186:0;clear
+: 1594079186:0;ls
+: 1594079190:0;clear
+: 1594079242:0;ranger
+: 1594079266:0;sudo pacman -Rcns zsh-autosuggestions
+: 1594079336:0;pip
+: 1594079340:0;sudo pacman -S python-pop
+: 1594079342:0;sudo pacman -S python-pip
+: 1594079397:0;clear
+: 1594079398:0;ls
+: 1594079399:0;ranger
+: 1594079408:0;sudo pip install ueberzug
+: 1594079416:0;clear
+: 1594079429:0;ranger
+: 1594079436:0;clear
+: 1594079484:0;fc-list 
+: 1594079504:0;clear
+: 1594079506:0;ls
+: 1594079519:0;nvim .config/zsh/.zshrc
+: 1594079549:0;ls
+: 1594079564:0;git clone https://github.com/LukeSmithxyz/st
+: 1594079569:0;ls
+: 1594079570:0;cd st
+: 1594079571:0;ls
+: 1594079577:0;nvim config.h
+: 1594079605:0;ranger
+: 1594079627:0;make
+: 1594079631:0;sudo make install
+: 1594079643:0;nvim config.h
+: 1594079658:0;sudo make install
+: 1594079661:0;make
+: 1594079672:0;cd ..
+: 1594079675:0;rm st -rf
+: 1594079676:0;clear
+: 1594079678:0;reboot
+: 1594079679:0;sudo rbeoot
+: 1594079683:0;sudo reboot
+: 1594079723:0;nvim .config/zsh/.zprofile
+: 1594079731:0;clear
+: 1594079734:0;startx
+: 1594079745:0;sudo pacman -S feh
+: 1594079761:0;sudo NetworkManager
+: 1594079780:0;sudo pacman -S feh
+: 1594079787:0;clear
+: 1594079788:0;ranger
+: 1594079815:0;polybar top
+: 1594079903:0;nvim .config/sxhkd/sxhkdrc
+: 1594079932:0;sudo pacman -S pulseaudio-alsa alsa-utils
+: 1594079943:0;clear
+: 1594079946:0;pactl
+: 1594079972:0;./.config/polybar/launch.sh
+: 1594079984:0;ranger
+: 1594080016:0;sudo pacman -S ttf-emojione
+: 1594080038:0;sudo pacman -S ttf-joypixel
+: 1594080040:0;sudo pacman -S ttf-joypixels
+: 1594080058:0;cd .local/bin
+: 1594080062:0;nvim betterlockscreen
+: 1594080067:0;chmod +x betterlockscreen
+: 1594080068:0;clear
+: 1594080090:0;ranger
+: 1594080108:0;betterlockscreen -u Mountains.png
+: 1594080136:0;sudo pacman -S imagemagick
+: 1594080143:0;sudo pacman -S i3lock-color
+: 1594080149:0;betterlockscreen -u Mountains.png
+: 1594080153:0;betterlockscreen
+: 1594080157:0;betterlockscreen -u Mountains.png
+: 1594080162:0;sudo pacman -S bc
+: 1594080179:0;sudo pacman -S xdpyinfo xrandr bc
+: 1594080206:0;sudo pacman -S xorg-xdpyinfo
+: 1594080215:0;ls
+: 1594080220:0;rm .local/bin/betterlockscreen
+: 1594080222:0;clear
+: 1594080229:0;git clone https://github.com/pavanjadhaw/betterlockscreen\
+
+: 1594080236:0;cd betterlockscreen
+: 1594080241:0;cp betterlockscreen ~/.local/bin
+: 1594080247:0;cd ~/Pictures
+: 1594080247:0;ls
+: 1594080253:0;betterlockscreen -u Mountains.png
+: 1594080256:0;bc
+: 1594080263:0;sudo pacman -S bc
+: 1594080269:0;betterlockscreen -u Mountains.png
+: 1594080279:0;ranger
+: 1594080291:0;clear
+: 1594080307:0;betterlockscreen
+: 1594080310:0;clear
+: 1594080315:0;nvim .config/sxhkd/sxhkdrc
+: 1594080378:0;alsamixer
+: 1594080406:0;clear
+: 1594080462:0;sudo ntpd -qg
+: 1594080474:0;nvim .config/polybar/config
+: 1594080526:0;nvim .config/bspwm/bspwmrc
+: 1594080575:0;alsamixer
+: 1594080590:0;clear
+: 1594080605:0;nvim .config/sxhkd/sxhkdrc
+: 1594080712:0;nvim /usr/include/X11/XF86keysym.h
+: 1594080789:0;pactl list sources [short]/pacmd list-sources
+: 1594080795:0;pactl list sources 
+: 1594080877:0;pacmd list-sources
+: 1594080883:0;clear
+: 1594081013:0;rc-service NetworkManager
+: 1594081029:0;clear
+: 1594081057:0;sudo pacman -Syyu networkmanager
+: 1594081076:0;clear
+: 1594081079:0;NetworkManager
+: 1594081085:0;rc-service NetworkManager
+: 1594081122:0;ranger
+: 1594081150:0;sudo pacman -S dunst
+: 1594081162:0;sudo pacman -S libnotify
+: 1594081211:0;dunstify
+: 1594081213:0;dunst fw
+: 1594081217:0;clear
+: 1594081262:0;nvim /etc/conf.d/net
+: 1594081308:0;cd /etc/init.d
+: 1594081308:0;ls
+: 1594081320:0;su -
+: 1594081480:0;clear
+: 1594081534:0;cd /usr/lib/NetworkManager
+: 1594081534:0;ls
+: 1594081539:0;cd conf.d
+: 1594081540:0;ls
+: 1594081558:0;clear
+: 1594081558:0;cd
+: 1594081578:0;sudo pacman -S code
+: 1594081595:0;sudo pacman -S code --noconfirm
+: 1594081646:0;which NetworkManager
+: 1594081653:0;cd /usr/bin/Net
+: 1594081679:0;rc-update add NetworkManager default
+: 1594081697:0;sudo cp /usr/bin/NetworkManager /etc/init.d
+: 1594081702:0;cd /etc/init.d
+: 1594081703:0;ls
+: 1594081706:0;rc-update add NetworkManager default
+: 1594081732:0;sudo rc-update add NetworkManager default
+: 1594081734:0;clear
+: 1594081824:0;sudo pacman -S mpd ncmpcpp
+: 1594081829:0;sudo pacman -S mpd ncmpcpp --noconfirm
+: 1594081849:23;ranger
+: 1594081873:0;clear
+: 1594081877:0;mpd
+: 1594081883:0;ncmpcpp
+: 1594081908:0;mkdir Music
+: 1594081909:0;clear
+: 1594081910:0;ncmpcpp
+: 1594081918:0;sudo pacman -S cava
+: 1594081924:0;yay cava
+: 1594081928:0;yay -S cava
+: 1594081963:0;cava
+: 1594081969:0;clear
+: 1594081975:0;sudo pacman -Rcns mpd ncmpcpp
+: 1594081979:0;clear
+: 1594081980:0;ranger
+: 1594081986:0;clear
+: 1594081992:0;sudo reboot
+: 1594082022:0;nm
+: 1594082023:0;nmcli
+: 1594082030:0;cli
+: 1594082033:0;nmtui
+: 1594082035:0;clear
+: 1594082037:0;nmcli
+: 1594082039:0;clear
+: 1594082051:0;feh 
+: 1594082057:0;geh --help
+: 1594082081:0;rc-update del NetworkManager
+: 1594082091:0;sudo rc-update NetworkManager
+: 1594082097:0;sudo rc-update del NetworkManager
+: 1594082100:0;clear
+: 1594082111:0;sudo rm /etc/init.d/NetworkManager 
+: 1594082112:0;clear
+: 1594082117:0;sudo NetworkManager
+: 1594082118:0;clear
+: 1594082146:0;wal -R
+: 1594082147:0;clear
+: 1594082152:0;feh --help
+: 1594082164:0;ranger
+: 1594082173:0;./.fehbg
+: 1594082178:0;nvim .fehbg
+: 1594082184:0;./.fehbg
+: 1594082185:0;clear
+: 1594082200:0;cd Pictures
+: 1594082200:0;ls
+: 1594082204:0;betterlockscreen -u Mountains.png
+: 1594082209:0;ls
+: 1594082217:0;mv .Xdefaults .Xresources
+: 1594082219:0;betterlockscreen -u Mountains.png
+: 1594082267:0;clear
+: 1594082278:0;betterlockscreen -l
+: 1594082298:0;nvim .config/sxhkd/sxhkdrc
+: 1594082301:0;dunst
+: 1594082305:0;nvim .config/bspwm/bspwmrc
+: 1594082318:0;notify-send "Hello"
+: 1594082333:0;notify-send "dunst\
+"
+: 1594082334:0;clear
+: 1594082397:0;nvim .config/sxhkd/sxhkdrc
+: 1594082547:0;xset q
+: 1594082562:0;xset q | grep Caps
+: 1594082572:0;xset q | grep Caps Lock
+: 1594082576:0;xset q | grep "Caps Lock"
+: 1594082765:0;xset q | sed "s/Caps"
+: 1594082769:0;xset q | sed "s/Caps/"
+: 1594082823:0;xset q | sed -e "s/Caps/"
+: 1594083322:0;sensors
+: 1594083458:0;clear
+: 1594083487:0;sudo pacman -S cronie
+: 1594083523:0;rc-update add cronie default
+: 1594083534:0;rc-update add cronie.servic default
+: 1594083538:0;rc-update add cronie.service default
+: 1594083541:0;cd /etc/init.d
+: 1594083542:0;ls
+: 1594083576:0;cd
+: 1594083589:0;sudo nvim /etc/cron.weekly
+: 1594083601:0;cd /etc/cron.weekly
+: 1594083612:0;sudo nvim fstrim
+: 1594083652:0;cd ..
+: 1594083653:0;ls
+: 1594083684:0;sudo nvim crontab
+: 1594083721:0;sudo /sbin/fstrim --all
+: 1594083737:0;clear
+: 1594083740:0;crontab -l
+: 1594083751:0;crontab -e
+: 1594083780:0;sudo crontab -l
+: 1594083784:0;crontab -l
+: 1594083816:0;clear
+: 1594083821:0;crontab -l
+: 1594083823:0;crontab 
+: 1594083829:0;sudo crontab -l
+: 1594083840:0;clear
+: 1594084051:0;sudo pacman -S openrc-base
+: 1594084063:0;su -
+: 1594084180:0;_crontab
+: 1594084191:0;ranger
+: 1594084202:0;clear
+: 1594084222:0;crontab -l
+: 1594084225:0;cronie
+: 1594084227:0;which cronie
+: 1594084229:0;whereis cronie
+: 1594084231:0;cron
+: 1594084260:0;sudo pacman -S openrc-base
+: 1594084361:0;sudo reboot
+: 1594084393:0;nmcli
+: 1594084395:0;clear
+: 1594084398:0;ranger
+: 1594084406:0;./.fehbg
+: 1594084408:0;clear
+: 1594084414:0;nvim .config/bspwm/bspwmrc 
+: 1594084421:0;wal -R
+: 1594084423:0;clear
+: 1594084447:0;nvim .cache/wal/colors.sh
+: 1594084458:0;clear
+: 1594084475:0;_crontab
+: 1594084477:0;clear
+: 1594084481:0;which cronie
+: 1594084490:0;sudo pacman -S cronie-openrc
+: 1594084500:0;rc-update add cronie default
+: 1594084507:0;crontab -l
+: 1594084510:0;sudo crontab -l
+: 1594084517:0;nvim /etc/crontab
+: 1594086456:0;sensors
+: 1594086456:0;clear
+: 1594086514:0;ranger
+: 1594086530:0;cava
+: 1594086552:0;sudo pacman -S portaudio
+: 1594086568:0;cava
+: 1594087101:0;sudo pacman -S tlp-oepnrc
+: 1594087106:0;tlp-stat
+: 1594087108:0;sudo tlp-stat
+: 1594087120:0;clear
+: 1594087408:0;lspci -k
+: 1594087761:0;clear
+: 1594087766:0;sudo pacman -S tlp-openrc
+: 1594087774:0;clar
+: 1594087775:0;clear
+: 1594087785:0;sudo pacman -S ntp
+: 1594087793:0;sudo ntpd -gq
+: 1594109449:0;nvim /etc/localtime
+: 1594109471:0;ln -s /usr/share/zoneinfo/Asia/Dubai > /etc/localtime
+: 1594109475:0;sudo ln -s /usr/share/zoneinfo/Asia/Dubai > /etc/localtime
+: 1594109480:0;sudo ln -s /usr/share/zoneinfo/Asia/Dubai  /etc/localtime
+: 1594109491:0;sudo rm /etc/localtime
+: 1594109493:0;sudo ln -s /usr/share/zoneinfo/Asia/Dubai  /etc/localtime
+: 1594109499:0;sudo nvim /etc/localtime
+: 1594109504:0;sudo ntpd -gq
+: 1594109658:0;ranger
+: 1594109673:0;clear
+: 1594109684:0;nvim .config/polybar/config
+: 1594109711:0;sensors
+: 1594109719:0;clear
+: 1594109720:0;htop
+: 1594109725:0;sudo pacman -S htop
+: 1594109735:0;htop
+: 1594109764:0;clear
+: 1594109820:0;sudo pacman -Syu
+: 1594109836:0;clear
+: 1594109864:0;sudo pacman -S openrc-shutdown
+: 1594109874:0;sudo pacman -S openrc-init
+: 1594109876:0;clear
+: 1594109899:0;which shutdown
+: 1594109907:0;whereis shutdown
+: 1594109912:0;sudo visudo
+: 1594109919:0;sudo EDITOR=nvim visudo
+: 1594109989:0;whereis reboot
+: 1594109994:0;whereis rbeoot
+: 1594109996:0;whereis reboot
+: 1594109997:0;clear
+: 1594110118:0;sudo reboot
+: 1594110124:0;sudo poweroff
+: 1594110131:0;su -
+: 1594110145:0;cd /sbin
+: 1594110145:0;ls
+: 1594110214:0;sudo reboot
+: 1594110251:0;cd Pictures
+: 1594110252:0;ls
+: 1594110255:0;wal -i Mountains.png
+: 1594110257:0;clear
+: 1594110261:0;./.fehbg
+: 1594110262:0;clear
+: 1594110276:0;nvim .config/sxhkd/sxhkdrc
+: 1594110298:0;sudo pacman -S scrot
+: 1594110307:0;ls
+: 1594110308:0;ranger
+: 1594111344:0;clear
+: 1594111345:0;pfetch
+: 1594113078:0;nvim .config/sxhkd/sxhkdrc
+: 1594113254:0;cd Pictures
+: 1594113256:0;betterlockscreen -u Mountains.png
+: 1594113266:0;nvim .xinitrc
+: 1594113279:0;nvim .config/bspwm/bspwmrc
+: 1594113292:0;betterlockscreen -l blur
+: 1594113306:0;pkill polybar
+: 1594113317:0;polybar top
+: 1594113329:0;nvim .config/polybar/config
+: 1594113352:0;clear
+: 1594113471:0;tlp-stat
+: 1594113473:0;sudo tlp-stat
+: 1594113528:0;yay s2ram
+: 1594113836:0;nvim /etc/tlp.conf
+: 1594113842:0;sudo nvim /etc/tlp.conf
+: 1594113978:0;sudo pacman -S tp_smapi
+: 1594113983:0;sudo pacman -S tp_smapi-openrc
+: 1594113991:0;sudo pacman -S tp_smapi
+: 1594114074:0;sudo modprobe tp_smapi
+: 1594119428:0;yay -S steam
+: 1594119432:0;yay steam
+: 1594119461:0;nvim /etc/pacman.conf
+: 1594120835:0;clear
+: 1594120879:0;ranger
+: 1594121271:0;sudo nvim /etc/pacman.conf
+: 1594121284:0;sudo pacman -Sy
+: 1594121294:0;sudo tlp-stat
+: 1594121331:0;clear
+: 1594122381:0;tlpui
+: 1594122385:0;sudo pacman -S tlpui
+: 1594122393:0;sudo pacman -S tlp-ui
+: 1594122403:0;yay tlp
+: 1594122415:0;yay tlpui
+: 1594122425:0;yay -S tlpui-git
+: 1594122498:0;sudo tlpui
+: 1594122550:0;sudo pacman -S tp_smapi
+: 1594122565:0;sudo pacman -S tp_smapi-dkms
+: 1594122571:0;yay tp_smapi
+: 1594122595:0;yay -S tp_smapi-dkms
+: 1594122641:0;sudo pacman -S linux-headers
+: 1594122669:0;yay -S tp_smapi-dkms
+: 1594122691:0;su -
+: 1594122730:0;sudo pacman -S acpi_call-dkms
+: 1594122759:0;su -
+: 1594122800:0;rc-service tp_smapi start
+: 1594122806:0;yay tp_smapi
+: 1594122830:0;clear
+: 1594122840:0;sudo reboot
+: 1594122873:0;sudo tlpui
+: 1594122914:0;whereis tp_smapi
+: 1594122919:0;clear
+: 1594123072:0;sudo pacman -Rcns tp_smapi-dkms
+: 1594123093:0;clear
+: 1594123101:0;sudo pacman -Rcns tlpui-git
+: 1594123104:0;clear
+: 1594123106:0;ranger
+: 1594123601:0;ping google.com
+: 1594123603:0;clear
+: 1594129529:0;nvim .config/sxhkd/sxhkdrc
+: 1594129746:0;yay rofi-moji
+: 1594129750:0;yay rofimoji
+: 1594129756:0;sudo pacman -S rofimoji
+: 1594129940:0;pkill polybar
+: 1594129942:0;clear
+: 1594129945:0;nvim .config/bspwm/bspwmrc
+: 1594129961:0;nvim .config/zsh/.zprofile
+: 1594130007:0;nvim .xinitrc
+: 1594130030:0;nvim .config/bspwm/bspwmrc
+: 1594130044:0;pkill polybar
+: 1594130052:0;ranger
+: 1594130073:0;clear
+: 1594130103:0;man shutdown
+: 1594130131:0;nvim .config/sxhkd/sxhkdrc
+: 1594197938:0;betterlockscreen 
+: 1594197942:0;betterlockscreen -l blur
+: 1594197953:0;nvim .xinitrc 
+: 1594197963:0;nvim .config/bspwm/bspwmrc
+: 1594198021:0;pkill polybar
+: 1594198024:0;clear
+: 1594198031:0;nvim .config/polybar/launch.sh
+: 1594198055:0;polybar --list-monitors
+: 1594198065:0;nvim .config/bspwm/bspwmrc
+: 1594198078:0;nvim .config/polybar/config
+: 1594198159:0;nvim .cache/wal/colors.s
+: 1594198162:0;nvim .cache/wal/colors.sh
+: 1594198186:0;ranger
+: 1594198194:0;./launch.sh
+: 1594198404:0;ranger
+: 1594198486:0;sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \\
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+: 1594198499:0;nvim
+: 1594198580:0;betterlockscreen
+: 1594198584:0;which betterlockscreen
+: 1594198588:0;whereis betterlockscreen
+: 1594198590:0;clear
+: 1594198591:0;ranger
+: 1594198635:0;clear
+: 1594199008:0;nmtui
+: 1594199352:0;nvim .config/bspwm/bspwmrc
+: 1594199397:0;sudo pacman -S polybar
+: 1594199404:0;clear
+: 1594199410:0;pkill polybar
+: 1594199442:0;chmod +x .config/polybar/launch.sh
+: 1594199447:0;nvim .config/polybar/launch.sh
+: 1594199471:0;nvim .config/polybar/config
+: 1594199502:0;nvim .config/polybar/launch.sh
+: 1594199582:0;ranger
+: 1594199590:0;yay betterlockscreen
+: 1594199601:0;sudo pacman -S betterlo
+: 1594199607:0;yay -S betterlockscreen
+: 1594199617:0;yay -S betterlockscreen --noconfirm
+: 1594199641:0;ranger
+: 1594199649:0;clear
+: 1594199866:0;htop
+: 1594199870:0;clear
+: 1594200141:0;ranger
+: 1594200155:0;clear
+: 1594200159:0;neofetch
+: 1594200161:0;clear
+: 1594200219:0;cava
+: 1594201095:0;nvim .local/bin/pfetch
+: 1594201351:0;ranger
+: 1594201371:0;clear
+: 1594201449:0;sudo pacman Syu
+: 1594201455:0;sudo pacman -Syu
+: 1594201516:0;ranger
+: 1594201538:0;cd Pictures/Synth
+: 1594201539:0;ls
+: 1594201545:0;betterlockscreen -u Palm\ Trees.png 
+: 1594201552:0;clear
+: 1594201552:0;ranger
+: 1594201556:0;clear
+: 1594201582:0;sudo pacman -S neofetch
+: 1594201593:0;neofetch --help
+: 1594201614:0;neofetch --backend ueberzug
+: 1594201620:0;neofetch
+: 1594201624:0;clear
+: 1594201625:0;neofetch
+: 1594201634:0;clear
+: 1594201638:0;neofetch
+: 1594201648:0;neofetch --backend ueberzug ~/Pictures/Synth/Retro\ Computer.jpg
+: 1594201654:0;neofetch --help
+: 1594201681:0;neofetch ~/Pictures/Synth/Retro\ Computer.jpg
+: 1594201688:0;neofetch --source ~/Pictures/Synth/Retro\ Computer.jpg
+: 1594201692:0;neofetch --source
+: 1594201769:0;neofetch --w3m
+: 1594201783:0;neofetch --source ~/Pictures/Synth/Retro\ Computer.jpg --backend ueberzug
+: 1594201787:0;neofetch --source ~/Pictures/Synth/Retro\ Computer.jpg --backend ueberzug --w3m
+: 1594201819:0;neofetch --ueberzug
+: 1594201826:0;neofetch --ueberzug ~/Pictures/Synth/Retro\ Computer.jpg
+: 1594201877:0;sudo pacman -Rcns neofetch
+: 1594201882:0;clear
+: 1594201921:0;nm-applet
+: 1594201927:0;sudo pacman -S nm-applet
+: 1594201932:0;yay nm-applet
+: 1594201958:0;sudo pacman -S lxappearance
+: 1594201963:0;clear
+: 1594202150:0;ranger
+: 1594202194:0;clear
+: 1594202290:0;ranger
+: 1594202414:0;sudo pacman -Rcns lxappearance
+: 1594202423:0;clear
+: 1594202423:0;ranger
+: 1594202454:0;clear
+: 1594202491:0;nvim .config/gtk-3.0/settings.ini
+: 1594202539:0;unzip Reversal-blue.tar.xz
+: 1594202554:0;cd .icons
+: 1594202555:0;ls
+: 1594202559:0;tar -xf Reversal-blue.tar.xz
+: 1594202560:0;ls
+: 1594202561:0;ranger
+: 1594202709:0;sudo pacman -S lxappearance
+: 1594202746:0;ls
+: 1594202749:0;cd .config/gtk-3.0
+: 1594202750:0;ls
+: 1594202752:0;rm settings.ini
+: 1594202754:0;clear
+: 1594202827:0;sudo pacman -Rcns lxappearance
+: 1594202880:0;ranger
+: 1594203022:0;gsettings
+: 1594203197:0;ranger
+: 1594203230:0;reboot
+: 1594203233:0;clear
+: 1594203403:0;ranger
+: 1594203410:0;tar -xf Layan-dark.tar.xz
+: 1594203411:0;ranger
+: 1594203485:0;fc-list
+: 1594203517:0;fc-list | grep Roboto
+: 1594203539:0;reboot
+: 1594203540:0;sudo reboot
+: 1594203606:0;nvim .config/sxhkd/sxhkdrc
+: 1594203619:0;gsettings
+: 1594203632:0;ranger
+: 1594203646:0;clear
+: 1594203650:0;sudo pacman -S lxappearance
+: 1594203684:0;ranger
+: 1594203825:0;lxappearance
+: 1594203891:0;ranger
+: 1594204050:0;nvim .config/rofi/config.rasi
+: 1594204359:0;ranger
+: 1594204382:0;clear
+: 1594204531:0;nmtui
+: 1594204538:0;clear
+: 1594204575:0;nmtui
+: 1594204941:0;nvim .cache/wal/colors-rofi-dark.rasi
+: 1594205051:0;nvim .config/sxhkd/sxhkdrc
+: 1594205131:0;fc-list | grep Roboto
+: 1594205385:0;yay picom
+: 1594205394:0;sudo pacman -S picom
+: 1594205433:0;mkdir .config/picom
+: 1594205438:0;cd .config/picom
+: 1594205450:0;cd
+: 1594205456:0;rm .config/picom -r
+: 1594205466:0;touch .config/picom.conf
+: 1594205517:0;picom -b
+: 1594205621:0;yay picom
+: 1594205633:0;pkill picom
+: 1594205650:0;yay -S picom-ibaghwan-git
+: 1594205657:0;yay -S picom-ibhagwan-git
+: 1594205678:0;clear
+: 1594205728:0;picom -b
+: 1594205794:0;nvim .config/picom.conf
+: 1594205807:0;pkill picom
+: 1594205809:0;picom -b
+: 1594205854:0;picom
+: 1594205927:0;xprop
+: 1594205948:0;pkill picom
+: 1594205953:0;picom -CGb
+: 1594206003:0;xprop
+: 1594206175:0;sudo pacman -S picom
+: 1594206177:0;yay -S picom
+: 1594206180:0;sudo pacman -S picom
+: 1594206186:0;pkill picom
+: 1594206195:0;picom -b
+: 1594206310:0;ranger
+: 1594206398:0;yay -S picom-ibhagwan-git
+: 1594206448:0;pkill picom
+: 1594206450:0;picom -b
+: 1594206511:0;nvim .config/bspwm/bspwmrc
+: 1594206544:0;notify-send "test"
+: 1594206690:0;clear
+: 1594206864:0;sensors
+: 1594206937:0;nvim .config/sxhkd/sxhkdrc
+: 1594207005:0;XPOP
+: 1594207006:0;XPROP
+: 1594207008:0;xprop
+: 1594207066:0;pkill picom
+: 1594207070:0;picom -CGb
+: 1594207158:0;picom -CGB
+: 1594207161:0;picom -CGb
+: 1594207196:0;picom -CGB
+: 1594207198:0;picom -CGb
+: 1594207201:0;clea
+: 1594207203:0;clear
+: 1594207292:0;nvim .config/bspwm/bspwmrc
+: 1594207370:0;xprop
+: 1594207421:0;nvim .config/polybar/config
+: 1594207477:0;nvim .config/polybar/
+: 1594207480:0;nvim .config/polybar/config
+: 1594207826:0;ranger
+: 1594207869:0;nvim .config/bspwm/bspwmrc
+: 1594207915:0;pkill polybar
+: 1594208050:0;polybar top
+: 1594208257:0;htop
+: 1594208263:0;sudo pacman -S ytop
+: 1594208423:0;ranger
+: 1594208431:0;clear
+: 1594208438:0;nvim .config/polybar/config
+: 1594208539:0;nvim .config/picom.conf
+: 1594208549:0;sudo pacman -S ytop
+: 1594208552:0;clear
+: 1594208553:0;nvim picom
+: 1594208561:0;nvim .config/picom.conf
+: 1594208581:0;nvim .config/polybar/config
+: 1594208709:0;nvim .config/polybar/
+: 1594208736:0;polybar top
+: 1594208843:0;nvim .config/bspwm/bspwmrc
+: 1594208854:0;echo $color
+: 1594208856:0;echo $color15
+: 1594208858:0;clear
+: 1594208995:0;pkill picom
+: 1594209039:0;picom -c
+: 1594209054:0;picom -cGb
+: 1594209065:0;nvim .config/bspwm/bspwmrc
+: 1594209129:0;picom -cGb
+: 1594209164:0;xprop
+: 1594209180:0;picom -cGb
+: 1594209183:0;clear
+: 1594209385:0;picom -b
+: 1594209411:0;clear
+: 1594209498:0;nvim .config/polybar/config
+: 1594209718:0;ranger
+: 1594209743:0;htop
+: 1594209791:0;ranger
+: 1594209795:0;clear
+: 1594259581:0;cava
+: 1594259598:0;ranger
+: 1594259652:0;neofetch
+: 1594259655:0;htop
+: 1594259717:0;sudo pacman -S obs-studio
+: 1594259768:0;sudo pacman -Rns compton
+: 1594259776:0;which compton
+: 1594259783:0;sudo pacman -Rs compton
+: 1594259914:0;clear
+: 1594259915:0;pfetch
+: 1594260008:0;ranger
+: 1594260016:0;sudo pacman -S mpv
+: 1594260033:0;sudo pacman -S vlc
+: 1594260073:0;ranger
+: 1594260185:0;cava
+: 1594260303:0;range
+: 1594260304:0;ranger
+: 1594260356:0;sudo pacman -Syu
+: 1594260392:0;pfetch
+: 1594260470:0;ranger
+: 1594261277:0;nmtui
+: 1594261400:0;synclient TouchpadOff=1
+: 1594261403:0;ranger
+: 1594261524:0;pfetch
+: 1594261530:0;clear
+: 1594261531:0;htop
+: 1594261548:0;ranger
+: 1594261581:0;cava
+: 1594261650:0;sudo pacman -Syu
+: 1594261657:0;clear
+: 1594261659:0;yay -Syu
+: 1594261664:0;clear
+: 1594261668:0;pfetch
+: 1594261822:0;nvim .config/polybar/config
+: 1594265116:0;ranger
+: 1594265765:0;nmtui
+: 1594267302:0;yay zoom
+: 1594267413:0;clear
+: 1594273998:0;nmtui
+: 1594274006:0;yay -S zoom --noconfirm
+: 1594278306:0;range
+: 1594278309:0;ranger
+: 1594278342:0;sudo pacman -Rcns zoom
+: 1594278347:0;ranger
+: 1594279628:0;nvim .config/polybar/config
+: 1594279655:0;fc-list | grep Arimo
+: 1594279873:0;nvim .config/polybar/config
+: 1594279915:0;iwlwifi
+: 1594279921:0;ip
+: 1594279923:0;ip -a
+: 1594279925:0;ip -l
+: 1594280001:0;ip a
+: 1594281371:0;su -
+: 1594281560:0;cd Pictures/Synth
+: 1594281561:0;ls
+: 1594281562:0;ranger
+: 1594281626:0;ls
+: 1594281640:0;sudo cp Palm\ Trees.png /boot/grub/themes/Vimix/
+: 1594281898:0;ping google.com
+: 1594281900:0;clear
+: 1594282327:0;ranger
+: 1594282348:0;sudo pacman -S zathura 
+: 1594282371:0;sudo pacman -S zathura-pdf-poppler
+: 1594282377:0;sudo pacman -S zathura-pdf-mupdf
+: 1594282400:0;ranger
+: 1594282442:0;su -
+: 1594282515:0;sudo pacman -S zathura-pdf-mupdf
+: 1594282518:0;ranger
+: 1594282551:0;cd /boot/grub/themes/breeze
+: 1594282551:0;ls
+: 1594282552:0;ranger
+: 1594282637:0;sudo nvim /boot/grub/grub
+: 1594282656:0;sudo nvim /boot/grub
+: 1594282734:0;sudo nvim /etc/default/grub
+: 1594282779:29;sudo nvim /boot/grub/themes/breeze/theme.txt
+: 1594282823:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1594282827:0;clear
+: 1594282891:0;sudo nvim /boot/grub/themes/breeze/theme.txt
+: 1594282981:0;sudo nvim /etc/default/grub
+: 1594282992:0;sudo ranger
+: 1594283149:0;clear
+: 1594283155:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1594283337:0;sudo nvim /boot/grub/themes/Vimix/theme.txt
+: 1594283415:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1594283456:0;sudo ranger
+: 1594283483:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1594283548:0;nvim .config/bspwm/bspwmrc
+: 1594285474:0;nmtui
+: 1594286283:0;nvim .config/rofi/config.rasi
+: 1594286291:0;nvim .cache/wal/colors-rofi-dark.rasi
+: 1594286814:0;cava
+: 1594286832:0;sudo pacman -Syu
+: 1594286849:0;clear
+: 1594286867:0;npm
+: 1594286868:0;clear
+: 1594286922:0;sudo pacman -S yarn nodejs
+: 1594287259:0;node
+: 1594287266:0;ranger
+: 1594288053:0;clear
+: 1594288054:0;cava
+: 1594288150:0;nvim .config/picom.conf
+: 1594288210:0;picom -b
+: 1594288253:0;clear
+: 1594292974:0;ranger
+: 1594292981:0;clear
+: 1594293032:0;nmtui
+: 1594293065:0;python Test.py
+: 1594293066:0;clear
+: 1594301524:0;cd Downloads
+: 1594301524:0;ls
+: 1594301528:0;chmod +x geteltorito.pl
+: 1594301529:0;clear
+: 1594301529:0;ls
+: 1594301547:0;./geteltorito.pl -i bios.img giuj36us.iso
+: 1594301554:0;./geteltorito.pl -o bios.img giuj36us.iso
+: 1594301555:0;ls
+: 1594301561:0;sudo fdisk -l
+: 1594301575:0;sudo dd if=bios.img of=/dev/sdb
+: 1594301587:0;sudo sync
+: 1594301734:0;clear
+: 1594304016:0;htop
+: 1594348997:0;git init
+: 1594348998:0;clear
+: 1594349067:0;git remote add origin https://github.com/X1Zeth2X/barbershop-appointment.git
+: 1594349073:0;git push -u origin master
+: 1594349086:0;clear
+: 1594349087:0;git status
+: 1594349096:0;git add Overview.md
+: 1594349120:0;git commit -m "Add overview."
+: 1594349137:0;git config --global user.email "zeth.leonardo@protonmail.com"
+: 1594349145:0;git config --global user.name "Zeth Leonardo"
+: 1594349146:0;clear
+: 1594349151:0;git remote add origin https://github.com/X1Zeth2X/barbershop-appointment.git
+: 1594349155:0;git push -u origin master
+: 1594349189:0;ls
+: 1594349190:0;ls -a
+: 1594349194:0;nvim .git/config
+: 1594349212:0;git push -u origin master
+: 1594349238:0;git status
+: 1594349244:0;git commit .
+: 1594349248:0;clear
+: 1594349249:0;git status
+: 1594349251:0;git push
+: 1594349254:0;git push -u origin master
+: 1594350899:0;nvim .config/polybar/config
+: 1594351587:0;git status
+: 1594351590:0;git commit .
+: 1594351595:0;git add .
+: 1594351597:0;git comit .
+: 1594351601:0;git commit
+: 1594351610:0;clear
+: 1594351611:0;git status
+: 1594351618:0;clear
+: 1594351619:0;git status
+: 1594351620:0;git push
+: 1594351670:0;nvim .config/bspwm/bspwmrc
+: 1594351682:0;nvim .config/sxhkd/sxhkdrc
+: 1594351777:0;clear
+: 1594351853:0;sudo ntpd -gq
+: 1594377065:0;clear
+: 1594377073:0;sudo hwclock --systohc
+: 1594377108:0;yarn global add @vue/cli
+: 1594377155:0;vue
+: 1594377162:0;vue --version
+: 1594377162:0;ls
+: 1594377163:0;ranger
+: 1594377667:0;echo $XDG_CACHE_HOME
+: 1594377671:0;clear
+: 1594377681:0;echo $XDG_CONFIG_HOME
+: 1594377684:0;cd .config
+: 1594377684:0;ls
+: 1594377686:0;ranger
+: 1594377740:0;clear
+: 1594377741:0;vue
+: 1594377744:0;vue --version
+: 1594377745:0;clear
+: 1594377753:0;ranger
+: 1594377761:0;clear
+: 1594378423:0;sudo pacman -Syu
+: 1594378445:0;clear
+: 1594378757:0;cd .config/zsh
+: 1594378758:0;ls
+: 1594378759:0;ls -a
+: 1594378763:0;nvim .zshrc
+: 1594378767:0;cd .config/zsh
+: 1594378768:0;ls
+: 1594378784:0;touch zsh-exports
+: 1594378788:0;nvim zsh-exports
+: 1594378794:0;which sh
+: 1594378803:0;chmod +x zsh-exports
+: 1594378806:0;nvim zsh-exports
+: 1594378881:0;rm zsh-exports
+: 1594378884:0;clear
+: 1594378895:0;ranger
+: 1594378930:0;clear
+: 1594378940:0;ranger
+: 1594379004:0;ls
+: 1594379011:0;nvim set-gaps.sh
+: 1594379056:0;ls
+: 1594379059:0;chmod +x set-gaps.sh
+: 1594379059:0;ls
+: 1594379074:0;nvim download-music.sh
+: 1594379080:0;youtube-dl
+: 1594379080:0;clear
+: 1594379091:0;which sh
+: 1594379108:0;chmod +x download-music.sh
+: 1594379108:0;clear
+: 1594379143:0;downloadMusic
+: 1594379146:0;clar
+: 1594379147:0;clear
+: 1594379159:0;setGaps 12
+: 1594379165:0;setGaps 150
+: 1594379169:0;setGaps 50
+: 1594379221:0;crontab -l
+: 1594379225:0;sudo crontab -l
+: 1594379228:0;clear
+: 1594379268:0;sudo pacman -S fstrim
+: 1594379279:0;sudo pacman -S util-linux
+: 1594379308:0;rc-update add fstrim default
+: 1594379316:0;rc-service fstrim
+: 1594379366:0;which fstrim
+: 1594379370:0;whereis fstrim
+: 1594379378:0;clear
+: 1594379413:0;su -
+: 1594379569:0;clear
+: 1594379889:0;ranger
+: 1594379908:0;xprop 
+: 1594382745:0;sudo nvim /etc/rccon
+: 1594382747:0;sudo nvim /etc/rc.conf
+: 1594382788:0;clear
+: 1594382793:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1594389059:0;which betterlockscreen
+: 1594389164:0;sudo nvim /usr/bin/betterlockscreen
+: 1594393353:0;ranger
+: 1594393366:0;clear
+: 1594398534:0;ranger
+: 1594398559:0;git clone https://github.com/LukeSmithxyz/st
+: 1594398570:0;sudo reboot
+: 1594398622:0;yay -S picom-ibhagwan-git
+: 1594398651:0;picom -b
+: 1594398653:0;clear
+: 1594398657:0;polybar
+: 1594398661:0;polybar top 
+: 1594398675:0;fc-list | grep Roboto
+: 1594398678:0;fc-list | grep Mateiral
+: 1594398680:0;fc-list | grep Material
+: 1594398687:0;nvim .config/polybar/config
+: 1594398695:0;sudo pacman -S ttf-unifont
+: 1594398714:0;yay unifont
+: 1594398724:0;yay -S ttf-unifort
+: 1594398727:0;yay -S ttf-unifont
+: 1594398766:0;clear
+: 1594398772:0;vue
+: 1594398808:0;sudo pacman -S python-pywal
+: 1594398815:0;sudo pacman -S feh
+: 1594398820:0;clear
+: 1594398795:11;yay -S betterlockscreen --noconfirm
+: 1594398860:0;sudo pacman -S pulseaudio-alsa  alsa-utils-runit
+: 1594398921:0;sudo pacman -S dunst notify-send
+: 1594398931:0;sudo pacman -S dunst 
+: 1594398958:0;sudo pacman -S libnotify
+: 1594398962:0;clear
+: 1594399027:0;sudo pacman -S noto-fonts gnu-free-fonts
+: 1594399047:0;nvim .config/polybar/config
+: 1594399065:0;sudo pacman -S bdf-unifont
+: 1594399094:0;yay material
+: 1594399101:0;yay material icon
+: 1594399163:0;ls /etc/runit/runsvdir/default
+: 1594399184:0;sudo pacman -Rcns ttf-unifont
+: 1594399205:0;nvim .config/polybar/config
+: 1594399228:0;clear
+: 1594399247:0;su -
+: 1594399335:0;sudo pacman -S cava
+: 1594399340:0;yay -S cava
+: 1594399357:0;yay -S cava --noconfirm
+: 1594399385:0;clear
+: 1594399385:0;cava
+: 1594399398:0;sudo pacman -S portaudio
+: 1594399404:0;sudo pacman -S portaudio 
+: 1594399410:0;cava
+: 1594399530:0;sudo pacman -S pamac-qt
+: 1594399540:0;yay pamac
+: 1594399561:0;sudo pacman -S scrot
+: 1594399599:0;sudo nvim /etc/pacman.conf
+: 1594399613:0;clear
+: 1594399688:0;nvim .config/polybar/config
+: 1594399738:0;sudo EDITOR=nvim visudo
+: 1594399968:0;sudo nvim /etc/runit/sv/agetty-tty1/conf
+: 1594400131:9;sudo pacman -Syu
+: 1594400142:0;yay -Syu
+: 1594400145:0;clear
+: 1594400208:0;sudo pacman -S tlp-runit 
+: 1594400220:0;sudo pacman -S acpi_call
+: 1594400232:0;clear
+: 1594400232:0;tlp
+: 1594400235:0;sudo tlp-stat
+: 1594400237:0;clear
+: 1594400264:0;pkill bspwm
+: 1594400268:0;exit
+: 1594400341:0;clear
+: 1594400389:0;tlp-stat
+: 1594400391:0;clear
+: 1594400395:0;nmtui
+: 1594400409:0;ping google.com
+: 1594400654:0;notify-send 'Hello world!' 'This is an example notification.' --icon=dialog-information\
+
+: 1594400725:0;sudo pacman -S hicolor-icon-theme
+: 1594400732:0;notify-send 'Hello world!' 'This is an example notification.' --icon=dialog-information\
+
+: 1594400825:0;sudo pacman -Rcns hicolor-icon-theme
+: 1594400836:0;sudo pacman -S gnome-icon-theme
+: 1594400937:0;ranger
+: 1594400962:0;whereis $XDG_DATA_DIR
+: 1594401010:0;yarn
+: 1594401013:0;sudo pacman -S node yarn
+: 1594401019:0;sudo pacman -S nodejs yarn
+: 1594401029:0;clear
+: 1594401036:0;ping google.com
+: 1594401039:0;clear
+: 1594401051:0;sudo pacman -S code --noconfirm
+: 1594401111:0;clear
+: 1594401115:0;cd /usr/share
+: 1594401115:0;ls
+: 1594401117:0;cd /icons
+: 1594401131:0;cd /usr/share/icons/hicolor/
+: 1594401132:0;ranger
+: 1594401165:0;nvim .config/dunst/dunstrc
+: 1594401209:0;echo $HOME
+: 1594401293:0;notify-send 'Hello world!' 'This is an example notification.' --icon=dialog-information\
+
+: 1594401351:0;.local/share/icons/Reversal-blue-dark/16/devices/
+: 1594401352:0;ranger
+: 1594401371:0;xprop
+: 1594401384:0;clear
+: 1594401388:0;xprop
+: 1594401408:0;display
+: 1594401412:0;clear
+: 1594401425:0;nvim .config/ranger/rc.conf
+: 1594401439:0;nvim .config/ranger/rifle.conf
+: 1594401447:0;nvim .config/ranger/scope.sh
+: 1594401458:0;nvim .config/ranger/commands.py
+: 1594401467:0;nvim .config/ranger/rifle.conf
+: 1594401540:0;notify-send 'Hello world!' 'This is an example notification.' --icon=acrobat
+: 1594401545:0;notify-send 'Hello world!' 'This is an example notification.' --icon=acrobat.svg
+: 1594401556:0;notify-send 'Hello world!' 'This is an example notification.' --icon=package-new
+: 1594401571:0;nvim .config/dunst/dunstrc
+: 1594401576:0;notify-send 'Hello world!' 'This is an example notification.' --icon=package-new
+: 1594401622:0;nvim .config/polybar/config
+: 1594401747:0;pkill dunst
+: 1594401749:0;notify-send 'Hello world!' 'This is an example notification.' --icon=package-new
+: 1594401795:0;echo ${xrdb:background}
+: 1594401801:0;echo {xrdb:background}
+: 1594401844:0;notify-send 'Hello world!' 'This is an example notification.' --icon=package-new
+: 1594401846:0;pkill dunst
+: 1594401847:0;dunst
+: 1594401849:0;notify-send 'Hello world!' 'This is an example notification.' --icon=package-new
+: 1594401894:0;cd .cache/wal
+: 1594401894:0;ls
+: 1594401907:0;nvim colors
+: 1594401918:0;echo ${xrdb:color1}
+: 1594401966:0;nvim .config/wal/templates
+: 1594402153:0;dunstify
+: 1594402157:0;dunstify "henlo"
+: 1594402168:0;nvim .config/dunst/dunstrc
+: 1594402180:0;which brave
+: 1594402187:0;brave -new-tab
+: 1594402209:0;echo ${color} 
+: 1594402214:0;echo ${color-1} 
+: 1594402220:0;echo ${color1} 
+: 1594402228:0;echo ${color}
+: 1594402245:0;nvim .Xresources
+: 1594402258:0;nvim .cache/wal/colors 
+: 1594402262:0;nvim .cache/wal/colors.Xresources
+: 1594402269:0;nvim .cache/wal/colors 
+: 1594402278:0;echo ${color}
+: 1594402323:0;nvim .cache/wal/colors.Xresources
+: 1594402331:0;echo ${color}
+: 1594402334:0;nvim .cache/wal/colors 
+: 1594402385:0;dunstify "henlo"
+: 1594402388:0;pkill dunst
+: 1594402388:0;dunstify "henlo"
+: 1594402466:0;pkill dunst
+: 1594402467:0;dunstify "henlo"
+: 1594402549:0;pkill dunst
+: 1594402549:0;dunstify "henlo"
+: 1594402598:0;date '+%a %M:%H %h %d %Y'
+: 1594402604:0;color1
+: 1594402606:0;color00
+: 1594402609:0;color
+: 1594402613:0;colors
+: 1594402615:0;colors00
+: 1594402617:0;colors
+: 1594402627:0;echo ${colour}
+: 1594402632:0;echo ${color000}
+: 1594402634:0;echo ${color00}
+: 1594402638:0;echo ${green}
+: 1594402642:0;echo ${color}
+: 1594402646:0;echo ${color.green}
+: 1594402649:0;echo ${color.00}
+: 1594402651:0;echo ${color00}
+: 1594402657:0;echo ${color-00}
+: 1594402699:0;xrdb -query
+: 1594402762:0;fg
+: 1594402764:0;bg
+: 1594402766:0;echo bg
+: 1594402769:0;echo $bg
+: 1594402776:0;echo $fg
+: 1594402783:0;nvim .cache/wal/colors 
+: 1594402791:0;echo $foreground
+: 1594402796:0;echo $backgorund
+: 1594402800:0;echo $background
+: 1594402803:0;echo $color1
+: 1594402807:0;echo $bg
+: 1594402837:0;clear
+: 1594402839:0;nvim .config/dunst/dunstrc
+: 1594402852:0;nvim .cache/wal/colors 
+: 1594402916:0;pkill dunst
+: 1594402917:0;dunstify "henlo"
+: 1594402924:0;dunstify "henlo" --urgency=critical
+: 1594402929:0;dunstify "henlo" --urgency=low
+: 1594402950:0;clear
+: 1594402960:0;dunstify "henlo" --urgency=low
+: 1594402985:0;clear
+: 1594403053:0;xset q | grep LED
+: 1594403059:0;xset q
+: 1594403148:0;xset q | awk -F 'Caps Lock\
+'
+: 1594403153:0;xset q | awk -F 'Caps Lock'
+: 1594403258:0;xset -q
+: 1594403370:0;grep xset -q
+: 1594403379:0;grep 'Caps Lock:' xset -q
+: 1594403386:0;xset -q 
+: 1594403395:0;xset -q | grep 'Caps Lock'
+: 1594403399:0;xset -q | grep 'Caps Lock:'
+: 1594403409:0;xset -q | grep 'Caps Lock: *'
+: 1594403415:0;xset -q | grep 'Caps Lock: $(*)'
+: 1594403417:0;xset -q | grep 'Caps Lock: '
+: 1594403457:0;xset -q | awk -F '\t'
+: 1594403465:0;xset -q | awk -F 'Caps Lock'
+: 1594403534:0;grep -i 'Caps Lock' xset -q
+: 1594403571:0;grep -r "Caps Lock" xset -q
+: 1594403576:0;grep -r "Caps Lock" $(xset -q)
+: 1594403594:0;grep -r "Caps Lock" '$(xset -q)'
+: 1594403644:0;xset -q | grep ^(linux|unix)
+: 1594403647:0;xset -q | grep "^(linux|unix)"
+: 1594403655:0;xset -q | grep "^Caps Lock"
+: 1594403664:0;xset -q | grep "^(Caps Lock)"
+: 1594403669:0;xset -q | grep "Caps Lock"
+: 1594403696:0;xset -q | grep "^Caps Lock$"
+: 1594403716:0;xset -q | grep "^/Caps Lock/$"
+: 1594403748:0;xset -q | grep '^..$'
+: 1594403763:0;xset -q | grep '^..$''\
+\
+'
+: 1594403768:0;xset -q | grep '^..$'
+: 1594403771:0;xset -q | grep '^:..$'
+: 1594403774:0;xset -q | grep '^Lock:..$'
+: 1594403778:0;xset -q | grep 'Caps Lock'
+: 1594403782:0;xset -q | grep 'Caps Lock: ..'
+: 1594403830:0;xset -q | grep '^$'
+: 1594403835:0;xset -q | grep '^....$'
+: 1594403837:0;xset -q | grep '^**$'
+: 1594403848:0;xset -q | grep '^.. $'
+: 1594403850:0;xset -q | grep '^ .. $'
+: 1594403854:0;xset -q 
+: 1594403868:0;nvim .config/sxhkd/sxhkdrc
+: 1594404157:0;sudo nvim /boot/grub/grub.cfg
+: 1594404180:0;nvim /etc/default/grub
+: 1594404243:0;sudo nvim /etc/default/grub
+: 1594404517:0;su -
+: 1594404575:0;sudo nvim /etc/default/grub
+: 1594404741:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1594404796:0;sudo nvim /boot/grub/themes/Vimix/theme.txt
+: 1594404923:0;yay grub-customizer
+: 1594404931:0;sudo pacman -S grub-customizer
+: 1594404961:0;which grub-customizer
+: 1594404964:0;grub-customizer
+: 1594405008:0;sudo pacman -Rcns grub-customizer
+: 1594405039:0;ranger
+: 1594405058:0;clear
+: 1594405153:0;git clone https://github.com/gustawho/grub2-theme-breeze
+: 1594405176:0;ranger
+: 1594405182:0;su -
+: 1594405224:0;sudo nvim /etc/default/grub
+: 1594405236:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1594405306:0;sudo nvim /etc/default/grub
+: 1594405321:0;sudo nvim /boot/grub/themes/breeze/theme.txt
+: 1594405498:0;su -
+: 1594405536:0;ranger
+: 1594405544:0;clear
+: 1594405915:0;git status
+: 1594405918:0;git commit README.md
+: 1594405944:0;clear
+: 1594405946:0;git status
+: 1594405948:0;git push
+: 1594406013:0;clear
+: 1594406248:0;su -
+: 1594406283:0;ranger
+: 1594406334:0;clear
+: 1594406344:0;sudo nvim /boot/grub/themes/breeze/theme.txt
+: 1594406436:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1594406547:0;htop
+: 1594406550:0;sudo pacman -S htop
+: 1594406556:0;htop
+: 1594406751:0;su -
+: 1594460072:0;sudo pacman -Syu
+: 1594461744:0;yay -Syu
+: 1594461876:0;clear
+: 1594462232:0;ranger
+: 1594462414:0;neofetch
+: 1594462415:0;clear
+: 1594462845:0;pfetch
+: 1594462849:0;clear
+: 1594462851:0;pfetch
+: 1594462852:0;clear
+: 1594462855:0;pfetch
+: 1594462858:0;pkill bspwm
+: 1594462861:0;startx
+: 1594462938:0;sudo pacman -S zip unzip
+: 1594463037:0;clear
+: 1594463045:0;pfetch
+: 1594463059:0;cd Downloads
+: 1594463060:0;unzip Etcher.zip
+: 1594463065:0;chmod +x balenaEtcher-1.5.101-x64.AppImage
+: 1594463066:0;ranger
+: 1594463078:0;./Etcher.AppImage
+: 1594463088:0;sudo pacman -S fuse
+: 1594463094:0;./Etcher.AppImage
+: 1594463503:0;clear
+: 1594463507:0;ls
+: 1594463509:0;./Etcher.AppImage
+: 1594463529:0;sudo ./Etcher.AppImage
+: 1594464772:0;ranger
+: 1594468007:0;sudo ./Etcher.AppImage
+: 1594471459:0;yay --version
+: 1594471462:0;node
+: 1594471466:0;ranger
+: 1594471471:0;clear
+: 1594471499:0;git commit README.md
+: 1594471504:0;clear
+: 1594471507:0;git push
+: 1594471615:0;ls
+: 1594471616:0;cd Don
+: 1594471618:0;ranger
+: 1594471628:0;gpg -c Github\ Recovery\ Code.txt
+: 1594471644:0;ls
+: 1594471650:0;ranger
+: 1594471655:0;gpg Github\ Recovery\ Code.txt.gpg
+: 1594471678:0;ls
+: 1594471679:0;ranger
+: 1594471700:0;gpg Github\ Recovery\ Code.txt.gpg
+: 1594471701:0;ls
+: 1594471711:0;ranger
+: 1594472055:0;clear
+: 1594472056:0;ranger
+: 1594472072:0;gpg GHCodes.gpg
+: 1594472075:0;ls
+: 1594472076:0;ranger
+: 1594472082:0;clear
+: 1594525087:0;vue
+: 1594525089:0;clear
+: 1594525118:0;vue create prototype
+: 1594525255:0;clear
+: 1594525256:0;git status
+: 1594525262:0;cd prototype
+: 1594525263:0;ls
+: 1594525302:0;git status
+: 1594525307:0;git add ./
+: 1594525309:0;git status
+: 1594525312:0;git commit .
+: 1594525317:0;clear
+: 1594525318:0;git status
+: 1594525319:0;git push
+: 1594525357:0;clear
+: 1594525480:0;git remote -v
+: 1594525481:0;clear
+: 1594525503:0;git commit .
+: 1594525505:0;git push
+: 1594525576:0;git config --global credential.helper cache
+: 1594525576:0;clear
+: 1594525718:0;git push
+: 1594525725:0;clear
+: 1594525760:0;yarn test
+: 1594525765:0;clear
+: 1594525765:0;ls
+: 1594525776:0;yarn tets:unit
+: 1594525785:0;yarn test
+: 1594525788:0;yarn jest
+: 1594525907:0;vue add vuetify
+: 1594525985:0;yarn jest
+: 1594526003:0;clear
+: 1594526004:0;git status
+: 1594526020:0;git commit package.json yarn.lock 
+: 1594526046:0;clear
+: 1594526049:0;yarn lint
+: 1594526056:0;clear
+: 1594526056:0;git status
+: 1594526073:0;git commit tsconfig.json
+: 1594526079:0;clear
+: 1594526090:0;git add .
+: 1594526093:0;git commit .
+: 1594526101:0;clear
+: 1594526102:0;git status
+: 1594526103:0;git push
+: 1594526314:0;yarn serve
+: 1594526771:0;yarn lint --fix
+: 1594526781:0;yarn serve
+: 1594526788:0;git commit .
+: 1594526797:0;clear
+: 1594526799:0;git status
+: 1594526803:0;git add .
+: 1594526809:0;git commit prototype/src/components/Navigation/.
+: 1594526813:0;cleare
+: 1594526815:0;clear
+: 1594526816:0;git status
+: 1594526832:0;clear
+: 1594526833:0;git status
+: 1594526835:0;git push
+: 1594530175:0;ping google.com
+: 1594530239:0;clear
+: 1594530257:0;ranger
+: 1594530263:0;clear
+: 1594530265:0;ncmpcpp
+: 1594530265:0;clear
+: 1594530268:0;ranger
+: 1594556187:0;yarn serve
+: 1594556199:0;cd prototype
+: 1594556200:0;yarn serve
+: 1594557554:0;sudo ntpd -gq
+: 1594557562:0;clear
+: 1594557574:0;sudo pacman -S ntp
+: 1594557584:0;sudo ntpd -qg
+: 1594582793:0;clear
+: 1594582802:0;sudo hwclock --systohc
+: 1594585752:0;sensors
+: 1594586151:0;clear
+: 1594586152:0;sensors
+: 1594586168:0;clear
+: 1594586168:0;sensors
+: 1594586169:0;clear
+: 1594586210:0;sensors
+: 1594586211:0;clear
+: 1594586212:0;sensors
+: 1594586213:0;clear
+: 1594586215:0;sensors
+: 1594586244:0;clear
+: 1594586244:0;sensors
+: 1594586305:0;clear
+: 1594586306:0;sensors
+: 1594586306:0;clear
+: 1594586307:0;sensors
+: 1594586309:0;clear
+: 1594586340:0;sensors
+: 1594586410:0;snsors
+: 1594586411:0;sensors
+: 1594586411:0;clear
+: 1594586488:0;sudo pacman -S lm-sensors
+: 1594586505:0;sudo pacman -S lm_sensors
+: 1594586642:0;sudo nvim /etc/default/tlp
+: 1594586674:0;sudo nvim /etc/tlp.conf
+: 1594586731:0;echo /sys/class/power_supply/BAT{0-1}/charge_start_threshold
+: 1594586755:0;cat /sys/class/power_supply/BAT{0-1}/charge_start_threshold
+: 1594586756:0;clear
+: 1594587107:0;sensors
+: 1594587181:0;clear
+: 1594587195:0;sudo sensors-detect
+: 1594587283:0;sensors
+: 1594587288:0;pwmconfig
+: 1594587290:0;sudo pwmconfig
+: 1594587307:0;clear
+: 1594587315:0;fancontrol
+: 1594587331:0;sensors
+: 1594587333:0;clear
+: 1594587334:0;sensors
+: 1594587335:0;clear
+: 1594587336:0;sensors
+: 1594587393:0;clear
+: 1594587401:0;pfetch
+: 1594587456:0;ranger
+: 1594587461:0;clear
+: 1594587462:0;ranger
+: 1594640491:0;xbacklight 
+: 1594640494:0;xbacklight --help
+: 1594640501:0;xbacklight -dec 10
+: 1594640503:0;xbacklight -dec 30
+: 1594640505:0;xbacklight
+: 1594640613:0;sudo pacman -S syncthing
+: 1594640621:0;syncthing
+: 1594640655:0;ranger
+: 1594642795:0;clear
+: 1594642803:0;ranger
+: 1594642924:0;sudo pacman -Syu
+: 1594642937:0;clear
+: 1594642938:0;ranger
+: 1594642963:0;clear
+: 1594643109:0;yay -Syu
+: 1594643261:0;sudo pacman -S firefox
+: 1594643330:0;sudo pacman -Rcns brave-bin
+: 1594643332:0;ranger
+: 1594643357:0;clear
+: 1594643374:0;xbacklight
+: 1594643375:0;clear
+: 1594643533:0;nvim .config/polybar/config
+: 1594643539:0;nvim .config/picom.conf
+: 1594643550:0;picom -cGb
+: 1594643551:0;clear
+: 1594643554:0;xprop
+: 1594643563:0;clear
+: 1594643564:0;picom -cGb
+: 1594644577:0;nmtui
+: 1594645413:0;sudo pacman -S linux-lqx
+: 1594645418:0;yay linux-lqx
+: 1594645463:0;yay linux-zen
+: 1594645502:0;sudo pacman -S linux-zen linux-zen-headers
+: 1594645509:0;sudo pacman -Sy linux-zen linux-zen-headers
+: 1594645671:0;sudo pacman -Rcns linux linux-headers
+: 1594645692:0;sudo pacman -Rns linux linux-api-headers
+: 1594645705:0;clear
+: 1594645706:0;poweroff
+: 1594646057:0;neofetch
+: 1594646062:0;uname 0r
+: 1594646069:0;uname -r
+: 1594646092:0;uname --help
+: 1594646095:0;uname -s
+: 1594646103:0;ls /boot
+: 1594646104:0;ls
+: 1594646214:0;which linu
+: 1594646307:0;ls /lib/modules
+: 1594646345:0;sudo pacman -Qo /lib/modules
+: 1594646384:0;sudo pacman -Rcns acpi_call
+: 1594646409:0;sudo pacman -Rns linux
+: 1594646412:0;clear
+: 1594646416:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1594646421:0;clear
+: 1594646498:0;yay linux-zen
+: 1594646516:0;sudo pacman -Rns linux-api-headers
+: 1594646527:0;sudo pacman -Rns linux-firmware
+: 1594646546:0;sudo pacman -Rcns linux-api-headers
+: 1594646556:0;clear
+: 1594646605:0;nvim .config/sxhkd/sxhkdrc
+: 1594646693:0;ls /boot
+: 1594646696:0;clear
+: 1594646909:0;yay linux-zen
+: 1594646914:0;clear
+: 1594646917:0;sudo pacman -Syu
+: 1594647014:0;sensors
+: 1594647020:0;clear
+: 1594647021:0;sensors
+: 1594647022:0;clear
+: 1594647026:0;sudo tlp-stat
+: 1594647047:0;nvim .config/polybar/config
+: 1594647439:0;ranger
+: 1594647447:0;clear
+: 1594647612:0;xprop
+: 1594647622:0;nvim .config/picom.conf
+: 1594647813:0;htop
+: 1594648265:0;sudo pacman -Rns linux
+: 1594648347:0;sudo pacman -Syu
+: 1594648354:0;sudo pacman -Sy
+: 1594648358:0;clear
+: 1594648380:0;#
+: 1594648388:0;sudo pacman -Sy # It doesn't do anything.
+: 1594648476:0;sudo nvim /etc/default/grub
+: 1594648899:0;neofetch
+: 1594648899:0;clear
+: 1594648938:0;scrot -d 3
+: 1594648951:0;nvim .config/bspwm/bspwmrc
+: 1594649171:0;clear
+: 1594649173:0;sensors
+: 1594649175:0;clear
+: 1594649242:0;sensors
+: 1594649244:0;clear
+: 1594649269:0;sensors
+: 1594649284:0;ranger
+: 1594649315:0;clear
+: 1594693239:0;sensors
+: 1594694429:0;clear
+: 1594696359:0;ranger
+: 1594696367:0;gpg GHCodes.gpg
+: 1594696380:0;ranger
+: 1594696394:0;gpg -c FFRecoveryKey.txt
+: 1594696406:0;ls
+: 1594696408:0;ranger
+: 1594696416:0;clear
+: 1594696451:0;ranger
+: 1594696620:0;sudo pacman -S obs-studio 
+: 1594696684:0;sudo pacman -S zathura zathura-pdf-poppler
+: 1594696696:0;sudo pacman -S zathura zathura-pdf-mupdf
+: 1594696737:0;gpg -c Zeth\ Leonardo.pdf
+: 1594696746:0;ls
+: 1594696747:0;ranger
+: 1594696780:0;gpg Zeth\ Leonardo.pdf.gpg
+: 1594696784:0;ls
+: 1594696785:0;ranger
+: 1594696806:0;sudo pacman -S mpv
+: 1594696820:0;sudo pacman -S vlc
+: 1594696883:0;yay vlc
+: 1594696917:0;sudo pacman -Rcns vlc 
+: 1594696922:0;ranger
+: 1594696941:0;clear
+: 1594696943:0;ranger
+: 1594696951:0;sudo pacman -S mpv
+: 1594696966:0;ranger
+: 1594697094:0;ls
+: 1594697098:0;gpg -c Test
+: 1594697398:0;ranger
+: 1594697404:0;gpg GHCodes.gpg
+: 1594697414:0;ls
+: 1594697417:0;ranger
+: 1594697548:0;clear
+: 1594697775:0;ranger
+: 1594697807:0;clear
+: 1594698035:0;syncthing
+: 1594698209:0;ranger
+: 1594698237:0;clear
+: 1594698244:0;ranger
+: 1594698248:0;clear
+: 1594699182:0;yay signal
+: 1594701647:0;sudo pacman -S signal-desktop
+: 1594703554:0;nvim .config/bspwm/bspwmrc
+: 1594703559:0;nvim .config/polybar/config
+: 1594703850:0;sudo pacman -S signal-desktop
+: 1594703857:0;passwd
+: 1594703882:0;clear
+: 1594703910:0;sudo pacman -Sy
+: 1594703923:0;sudo pacman -Syu
+: 1594703976:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1594703986:0;sudo pacman -S signal-desktop
+: 1594704086:0;xprop
+: 1594704105:0;nvim .config/bspwm/bspwmrc
+: 1594704122:0;clear
+: 1594704167:0;ranger
+: 1594704172:0;clear
+: 1594704273:0;ranger
+: 1594704304:0;nvim .config/polybar/config
+: 1594704551:0;nvim .config/picom.conf
+: 1594704573:0;yay kdeconnect
+: 1594704580:0;sudo pacman -S kdeconnect
+: 1594704653:0;nvim .config/picom.conf
+: 1594704666:0;xprop
+: 1594704675:0;nvim .config/picom.conf
+: 1594704686:0;picom -cGb
+: 1594704687:0;clear
+: 1594704737:0;du -sh /var/cache/pacman/pkg
+: 1594704743:0;yay -Sc
+: 1594704755:0;yay -Scc
+: 1594704761:0;du -sh /var/cache/pacman/pkg
+: 1594704762:0;clear
+: 1594704775:0;sudo pacman -S pacman-contrib
+: 1594704780:0;paccache -r
+: 1594704807:0;sudo pacman -Qdtq
+: 1594704834:0;du -sh ~/.cache
+: 1594704838:0;clear
+: 1594704847:0;sudo pacman -Rns $(pacman -Qtdq)
+: 1594704856:0;clear
+: 1594704899:0;sudo paccache -r
+: 1594704909:0;su -
+: 1594705035:0;sudo pacman -Syu
+: 1594705043:0;yay -Syu
+: 1594705048:0;clear
+: 1594705059:0;crontab -l
+: 1594705062:0;sudo crontab -l
+: 1594705071:0;clear
+: 1594705998:0;nvim .config/polybar/
+: 1594709606:0;ranger
+: 1594709643:0;fc-list
+: 1594709648:0;fc-list | grep San
+: 1594709654:0;fc-list | grep Francisco
+: 1594709672:0;fc-cache -f -v
+: 1594709677:0;fc-list | grep Francisco
+: 1594709777:0;clear
+: 1594709850:0;ranger
+: 1594709882:0;clear
+: 1594709895:0;yay noto
+: 1594709917:0;sudo pacman -Rcns noto-fonts
+: 1594709921:0;clear
+: 1594709936:0;ranger
+: 1594709964:0;yay san
+: 1594709972:0;yay francisco
+: 1594709999:0;fc-cache -f -v
+: 1594710012:0;ranger
+: 1594710033:0;fc-list
+: 1594710074:0;nvim .config/polybar/config
+: 1594710083:0;yay Francisco
+: 1594710097:0;fc-list | grep 'San Francisco'
+: 1594710100:0;fc-list | grep 'San'
+: 1594710103:0;fc-list | grep 'FS'
+: 1594710105:0;fc-list | grep 'SF'
+: 1594710134:0;fc-list | grep 'SFProMono'
+: 1594710139:0;fc-list | grep 'SFMono'
+: 1594710152:0;nvim .config/rofi/config.rasi
+: 1594710202:0;sudo pacman -S lxappearance
+: 1594710265:0;nvim .config/polybar/config
+: 1594710317:0;fc-list | grep 'SFMono'
+: 1594710372:0;yay sf
+: 1594710378:0;yay Francisco
+: 1594710399:0;clear
+: 1594710507:0;nvim .config/polybar/config
+: 1594710549:0;polybar top
+: 1594710633:0;git clone https://github.com/LukeSmithxyz/st
+: 1594710637:0;cd st
+: 1594710637:0;ls
+: 1594710639:0;nvim Makefile
+: 1594710642:0;nvim config.
+: 1594710645:0;nvim config.h
+: 1594710736:0;ranger
+: 1594710762:0;fc-list -fv
+: 1594710764:0;fc-list -f -v
+: 1594710769:0;fc-cache -fv
+: 1594710775:0;clear
+: 1594710790:0;fc-list | grep 'SFCompac;\
+'
+: 1594710793:0;fc-list | grep 'SFCompac'
+: 1594710796:0;ranger
+: 1594710819:0;fc-cache -fv
+: 1594710822:0;clear
+: 1594710934:0;nvim .config/Code\ -\ OSS/User/settings.json
+: 1594711057:0;yay Monaco
+: 1594711099:0;yay menlo
+: 1594711127:0;ranger
+: 1594711227:0;clear
+: 1594711234:0;fc-cache -fv
+: 1594711245:0;fc-list | grep 'Meslo'
+: 1594711392:0;ls
+: 1594711392:0;cd st
+: 1594711393:0;ls
+: 1594711396:0;nvim config.h
+: 1594711404:0;make
+: 1594711407:0;sudo make install
+: 1594711419:0;ranger
+: 1594711423:0;clear
+: 1594711425:0;ranger
+: 1594711470:0;cd st
+: 1594711470:0;ls
+: 1594711473:0;nvim config.h
+: 1594711485:0;make clean
+: 1594711489:0;clean
+: 1594711491:0;make 
+: 1594711495:0;sudo make install
+: 1594711511:0;clear
+: 1594711573:0;yay xorg-fonts
+: 1594711590:0;sudo pacman -Rcns xorg-fonts-alias-misc xorg-fonts-misc
+: 1594711611:0;fc-list
+: 1594711646:0;fc-list | grep 'Source'
+: 1594711678:0;ranger
+: 1594711721:0;nvim .config/polybar/config
+: 1594711737:0;polybar top
+: 1594711801:0;fc-list | grep 'SF Compact'
+: 1594711817:0;polybar top
+: 1594711827:0;. ~/.config/polybar/launch.sh
+: 1594711828:0;clear
+: 1594711854:0;sudo pacman -Rcns lxappearance
+: 1594711863:0;nvim .config/bspwm/bspwmrc
+: 1594711876:0;clear
+: 1594711923:0;ranger
+: 1594711980:0;clear
+: 1594712020:0;pkill firefox
+: 1594712217:0;clear
+: 1594712219:0;pfetch
+: 1594712839:0;nvim .config/polybar/config
+: 1594714533:0;sudo nvim /etc/modprobe.d/blacklife.conf
+: 1594714547:0;clear
+: 1594714635:0;nvim .config/polybar/config
+: 1594714649:0;uname n
+: 1594714651:0;uname -n
+: 1594714654:0;uname --help
+: 1594714659:0;uanem -r
+: 1594714661:0;uname -r
+: 1594714662:0;clear
+: 1594714663:0;exit
+: 1594714666:0;yay -Syu
+: 1594714708:0;sudo pacman -S vulkan-intel
+: 1594714734:0;clear
+: 1594715132:0;ranger
+: 1594715148:0;clear
+: 1594715190:0;git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
+: 1594715197:0;ranger
+: 1594715272:0;ls
+: 1594715273:0;clear
+: 1594715389:0;cava
+: 1594718829:0;ranger
+: 1594718833:0;sudo pacman -Syu
+: 1594718839:0;clear
+: 1594718892:0;ranger
+: 1594718946:0;nvim .config/polybar/config
+: 1594718949:0;clear
+: 1594718957:0;nvim .config/polybar/config
+: 1594718978:0;ranger
+: 1594719034:0;clear
+: 1594720276:0;ranger
+: 1594720645:0;syncthing
+: 1594720661:0;ranger
+: 1594720670:0;clear
+: 1594720942:0;nvim .config/polybar/config
+: 1594720945:0;ranger
+: 1594721710:0;clear
+: 1594722342:0;ranger
+: 1594722684:0;clear
+: 1594722685:0;pfetch
+: 1594722687:0;clear
+: 1594722745:0;ranger
+: 1594722762:0;scrot -d 3
+: 1594722771:0;ranger
+: 1594722784:0;clear
+: 1594725026:0;sudo ntpd -qg
+: 1594750245:0;sudo hwclock --systohc
+: 1594750246:0;clear
+: 1594750781:0;ranger
+: 1594750803:0;clear
+: 1594752593:0;sudo pacman -Syu
+: 1594752603:0;clear
+: 1594752835:0;su -
+: 1594753798:0;nvim .config/rofi/config.rasi
+: 1594753817:0;nvim .cache/wal/colors-rofi-dark.rasi
+: 1594753907:0;rofi --hhelp
+: 1594753911:0;rofi window
+: 1594753915:0;rofi -show window
+: 1594755640:0;ls
+: 1594756297:0;htop
+: 1594756728:0;yay boostnote
+: 1594756878:0;ranger
+: 1594757134:0;./Boostnote.AppImage & disown
+: 1594757140:0;sudo pacman -S fuse
+: 1594757146:0;./Boostnote.AppImage
+: 1594757148:0;fuse
+: 1594757151:0;fusermount
+: 1594757154:0;fuser
+: 1594757157:0;./Boostnote.AppImage
+: 1594757168:0;./Boostnote.AppImage --appimage-extract
+: 1594757170:0;ls
+: 1594757173:0;ranger
+: 1594757179:0;./AppRun
+: 1594757202:0;ranger
+: 1594757230:0;clear
+: 1594803460:0;nvim .config/sxhkd/sxhkdrc
+: 1594803542:0;nvim .config/polybar/config
+: 1594803547:0;nvim .config/bspwm/bspwmrc 
+: 1594803629:0;nvim .cache/wal/colors.sh
+: 1594804276:0;sudo pacman -Syu
+: 1594805696:0;clear
+: 1594805703:0;sudo pacman -Rcns electron
+: 1594805719:0;sudo pacman -Rns electron7
+: 1594807846:0;clear
+: 1594807889:0;nvim ig-chain-archive.sh
+: 1594807897:0;which sh
+: 1594807904:0;chmod +x ig-chain-archive.sh
+: 1594807906:0;nvim ig-chain-archive.sh
+: 1594807941:0;sudo pacman -S android-tools
+: 1594807962:0;adb
+: 1594807967:0;adb devices
+: 1594808233:0;adb device
+: 1594808234:0;adb devices
+: 1594808335:0;adb shell
+: 1594808388:0;adb kill-server
+: 1594808392:0;su -
+: 1594808436:0;sudo su
+: 1594813070:0;sudo ntpd -qg
+: 1594813086:0;clear
+: 1594813091:0;sudo hwclock --systohc
+: 1594813092:0;clear
+: 1594813230:0;nvim ig-chain-archive.sh
+: 1594813243:0;nvim ig-chain-archive.sh 
+: 1594813323:0;yay bgra
+: 1594813339:0;yay libxft-bgra
+: 1594813414:0;pkill bspwm
+: 1594813417:0;exit
+: 1594813427:0;ls
+: 1594813429:0;nvim ig-chain-archive.sh
+: 1594813442:0;clear
+: 1594813443:0;exit
+: 1594813453:0;ranger
+: 1594813466:0;rbeoot
+: 1594813468:0;reboot
+: 1594813472:0;sudo reboot
+: 1594813523:0;polybar top
+: 1594813530:0;wal -R
+: 1594813536:0;nvim .config/bspwm/bspwmrc
+: 1594813560:0;ls
+: 1594813578:0;clear
+: 1594813585:0;git clone https://github.com/lukesmithxyz/st
+: 1594813590:0;cd st
+: 1594813591:0;ls
+: 1594813593:0;nvim config.
+: 1594813595:0;nvim config.h
+: 1594813607:0;make
+: 1594813611:0;sudo make install
+: 1594813623:0;nvim config.h
+: 1594813636:0;make -j4 && sudo make install
+: 1594813638:0;clear
+: 1594813641:0;which st
+: 1594813644:0;whereis st
+: 1594813649:0;cd /usr/local/bin
+: 1594813650:0;ls
+: 1594813654:0;cd ..
+: 1594813656:0;rm st -r
+: 1594813658:0;ls
+: 1594813662:0;ranger
+: 1594814008:0;sudo pacman -Syu
+: 1594814026:0;yay -Syu
+: 1594814032:0;clear
+: 1594815221:0;nmtui
+: 1594817504:0;ranger
+: 1594817507:0;clear
+: 1594819278:0;sudo pacman -S arandr r
+: 1594819279:0;sudo pacman -S arandr 
+: 1594819328:0;ranger
+: 1594819338:0;nvim .config/polybar/config
+: 1594819639:0;echo $MONITOR
+: 1594819662:0;polybar -l
+: 1594819669:0;polybar -m
+: 1594819743:0;ranger
+: 1594819808:0;sudo pacman -Rcns arandr
+: 1594819813:0;ranger
+: 1594819861:0;clear
+: 1594820044:0;ranger
+: 1594820027:32;yarn add electron --global
+: 1594820158:0;yarn global add electron
+: 1594820233:0;yarn global remove electron
+: 1594820586:0;ranger
+: 1594820822:0;yay -Syu
+: 1594820854:0;clear
+: 1594820856:0;ranger
+: 1594821010:0;mv .gtkrc-2.0 $XDG_CONFIG_HOME/gtk-2.0/gtkrc
+: 1594821041:0;echo $XDG_RUNTIME_DIR
+: 1594821057:0;ls $XDG_RUNTIME_DIR
+: 1594821082:0;clear
+: 1594821154:0;which sh
+: 1594821171:0;nvim .config/zsh/.zshrc
+: 1594821225:0;clear
+: 1594821255:0;export $XDG_DATA_HOME
+: 1594821287:0;ranger
+: 1594821416:0;gpg2 --homedir "$XDG_DATA_HOME"/gnupg
+: 1594821445:0;ranger
+: 1594821457:0;echo $XDG_DATA_HOME
+: 1594821482:0;ranger
+: 1594821704:0;echo $XDG_CONFIG_HOME
+: 1594821716:0;cd $XDG_CONFIG_HOME/X11
+: 1594821733:0;touch -p $XDG_CONFIG_HOME/X11/xinitrc
+: 1594821738:0;touch --help
+: 1594821757:0;mkdir $XDG_CONFIG_HOME/X11/
+: 1594821764:0;touch $XDG_CONFIG_HOME/X11/xinitrc
+: 1594821771:0;cat .xinitrc > $XDG_CONFIG_HOME/X11/xinitrc
+: 1594821787:0;cat $XDG_CONFIG_HOME/X11/xinitrc
+: 1594821790:0;rm .xinitrc
+: 1594821826:0;nvim .zshenv
+: 1594822025:0;clear
+: 1594822025:0;ls
+: 1594822026:0;cd Documents/q
+: 1594822026:0;ls
+: 1594822028:0;cd Documents
+: 1594822028:0;ls
+: 1594822028:0;clear
+: 1594822036:0;git clone https://github.com/X1Zeth2X/dotfiles
+: 1594822042:0;ranger
