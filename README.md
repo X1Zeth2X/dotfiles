@@ -1,4 +1,4 @@
-## Glorious Dotfiles
+## Dotfiles
 
 This is my dotfiles to my BSPWM setup.
 
